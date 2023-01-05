@@ -11,7 +11,7 @@ public class CurrencyConfigurationController {
 	private CurrencyServiceConfiguration configuration;
 	
 	@RequestMapping("/currency-configuration")
-	public CurrencyServiceConfiguration retrieveAllCourses() {
+	public CurrencyServiceConfiguration retrieveConfigurations() {
 		return configuration;
 	}
 
